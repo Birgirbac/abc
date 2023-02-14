@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title>ABC</title>
+	<title>ABC Mania</title>
 	<style>
 		html,
 		body {
@@ -43,15 +43,15 @@
 <body>
 	<div id="gameContainer">
 		<canvas id="unity-canvas" data-pixel-art=""></canvas>
-		<script src="Build/abb.loader.js"></script>
+		<script src="Build/ABCMania.loader.js"></script>
 		<script>
 			createUnityInstance(document.querySelector("#unity-canvas"), {
-				dataUrl: "Build/abb.data",
-				frameworkUrl: "Build/abb.framework.js",
-				codeUrl: "Build/abb.wasm",
+				dataUrl: "Build/ABCMania.data",
+				frameworkUrl: "Build/ABCMania.framework.js",
+				codeUrl: "Build/ABCMania.wasm",
 				streamingAssetsUrl: "StreamingAssets",
-				companyName: "DefaultCompany",
-				productName: "ABC",
+				companyName: "AuroraEdutainment",
+				productName: "ABC Mania",
 				productVersion: "1.0",
 			}).then(function (instance) {
 				var canvas = instance.Module.canvas;
